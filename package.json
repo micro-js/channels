@@ -1,0 +1,17 @@
+{
+  "name": "@f/channels",
+  "description": "Minimal CSP channels.",
+  "repository": "git://github.com/micro-js/channels.git",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish --access=public"
+  },
+  "dependencies": {
+    "@f/foreach": "^1.2.2"
+  },
+  "devDependencies": {
+    "tape": "^4.2.2"
+  }
+}
