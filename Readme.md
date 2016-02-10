@@ -18,6 +18,8 @@ Minimal CSP channels.
 var createChannels = require('@f/channels')
 var channels = createChannels()
 
+var CH = 'CHANNEL'
+
 channels.take(CH).then(function (val) {
   val // 42
 })
